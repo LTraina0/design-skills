@@ -164,7 +164,7 @@ Apply these common patterns for interface elements.
 
 - **Sentence case** (default): Body text, descriptions, helper text, error messages, success messages, tooltips, placeholder text, **button labels**, lower-level (H3+) headings, figure captions, callouts, table titles
 - **Title case**: Page titles, modal/dialog titles, menu and navigation items, form field labels
-- **All-caps**: Reserved for **short overline / eyebrow labels** (≤3 words) that sit above a heading or metric — e.g., stat-card section headers like `EMPLOYEES`, `TOTAL PAY`, `LAST UPDATED`, category tags over KPI values — and for **acronyms** (`PDF`, `URL`, `API`, `EIN`, `SSN`). Trimble's own product surfaces use this treatment for short category overlines; it's an intentional typographic signal, not shouting. **Do not** use all-caps for prose, button labels, error messages, page titles, tabs/menu labels, or any string longer than ~3 words — beyond that length readability drops sharply and it reads as shouting.
+- **All-caps**: Reserved for **short overline / eyebrow labels** (≤3 words) that sit above a heading or metric — e.g., stat-card section headers like `EMPLOYEES`, `TOTAL PAY`, `LAST UPDATED`, category tags over KPI values — and for **acronyms** (`PDF`, `URL`, `API`, `EIN`, `SSN`). For short category overlines it's an intentional typographic signal, not shouting. **Do not** use all-caps for prose, button labels, error messages, page titles, tabs/menu labels, or any string longer than ~3 words — beyond that length readability drops sharply and it reads as shouting.
 
 **Title case mechanics** (applies wherever title case is used):
 
@@ -183,10 +183,10 @@ Examples:
 - "Add a New Employee"
 - "How to File Quarterly Taxes"
 
-**Lista interpretations of edge cases:**
+**Edge cases:**
 
-- **"Coming soon"** is the canonical future-feature label everywhere it appears (badges, callouts, copy). Even when used in a title-cased context, write it sentence case per the `lista-ui-conventions` rule. Do not expose milestone granularity ("Coming at Beta", "Coming at GA") in user-facing strings.
-- **Dropdown action items** (imperative-verb items inside a button-triggered menu, e.g. `"Add employee"`, `"See payroll runs"`, `"Export report"`) are treated as **buttons → sentence case**, not as static navigation menu items. Prism's "menu items use title case" rule applies to **navigational** menus (side nav, breadcrumbs, top-level nav links pointing to pages), not action menus.
+- **"Coming soon"** is the canonical future-feature label everywhere it appears (badges, callouts, copy). Even when used in a title-cased context, write it sentence case. Do not expose milestone granularity ("Coming at Beta", "Coming at GA") in user-facing strings.
+- **Dropdown action items** (imperative-verb items inside a button-triggered menu, e.g. `"Add employee"`, `"See payroll runs"`, `"Export report"`) are treated as **buttons → sentence case**, not as static navigation menu items. The "menu items use title case" rule applies to **navigational** menus (side nav, breadcrumbs, top-level nav links pointing to pages), not action menus.
 - **Buttons that reference a named page** (e.g. `"Go to Setup Wizard"`, `"Back to Payroll Hub"`, `"Open Time Review"`) **preserve the page name's title case** while the surrounding button copy stays sentence case. The page name is a proper noun in this context.
 
 ### Numbers and Dates
@@ -460,11 +460,8 @@ Use these research-backed metrics to create effective UX text.
 
 External references this skill is grounded in (consult these for any case the skill doesn't cover):
 
-- **Modus Style Guide** — Trimble's design-system writing rules (the canonical source for Modus-branded products).
 - **The Chicago Manual of Style** — fallback for grammar, punctuation, and citation questions.
 - **The Merriam-Webster Dictionary** — fallback for spelling and word choice.
-
-Lista Payroll inherits Prism's writing conventions, which are themselves aligned with Modus. When this skill conflicts with `lista-ui-conventions` (e.g. "Coming soon" copy), the Lista rule wins.
 
 ## Resources
 

@@ -384,7 +384,7 @@ Spectrum components come in 5 sizes:
 | shadow-400 | `0 12px 24px rgba(0, 0, 0, 0.16)` | Dialogs, modals |
 | shadow-500 | `0 16px 32px rgba(0, 0, 0, 0.20)` | Top-level overlays |
 
-**Note:** Spectrum shadows are directional (downward Y-offset), unlike Modus which uses uniform spread.
+**Note:** Spectrum shadows are directional (downward Y-offset), unlike systems that use uniform spread.
 
 ### Dark Mode Shadows
 In dark themes, shadows use higher opacity:

@@ -343,7 +343,7 @@ outline: 1px solid transparent;
 box-shadow: 0 0 0 2px var(--p-color-border-focus); /* #6DA5E8 */
 ```
 
-**Note:** Polaris uses directional shadows (Y-offset), unlike Modus which uses uniform spread. This gives a natural light-from-above effect.
+**Note:** Polaris uses directional shadows (Y-offset), unlike systems that use uniform spread. This gives a natural light-from-above effect.
 
 ---
 
