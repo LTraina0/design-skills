@@ -1,0 +1,86 @@
+{
+  "results": [
+    {
+      "name": "Confirmação por teclado, feedback imediato, proteção contra envio repetido e foco preservado",
+      "result": "PASS"
+    },
+    {
+      "name": "Download de calendário fictício com 14h30 Brasília = 17h30 UTC; não reenvia confirmação",
+      "result": "PASS"
+    },
+    {
+      "name": "Falha de conexão seguida de retentativa manual e sucesso, com dados preservados",
+      "result": "PASS"
+    },
+    {
+      "name": "Timeout finito de 6,5 s com mensagem específica e recuperação",
+      "result": "PASS"
+    },
+    {
+      "name": "Interrupção retorna foco ao botão; resultado antigo não sobrescreve inspeção posterior",
+      "result": "PASS"
+    },
+    {
+      "name": "Disclosure nativo acessível por teclado",
+      "result": "PASS"
+    },
+    {
+      "name": "Movimento reduzido remove spinner e animações sem ocultar o estado",
+      "result": "PASS"
+    },
+    {
+      "name": "Alvos de todos os controles têm altura ≥ 44 CSS px",
+      "result": "PASS"
+    },
+    {
+      "name": "Sem overflow horizontal em 320, 375, 768 e 1440 px, nos quatro estados",
+      "result": "PASS"
+    },
+    {
+      "name": "Pares principais de texto e foco excedem 4,5:1 de contraste",
+      "result": "PASS"
+    },
+    {
+      "name": "Nenhum erro de JavaScript nos fluxos e exports",
+      "result": "PASS"
+    }
+  ],
+  "contrast": [
+    {
+      "name": "Texto principal",
+      "ratio": 12.09
+    },
+    {
+      "name": "Texto secundário",
+      "ratio": 5.87
+    },
+    {
+      "name": "Texto secundário / papel",
+      "ratio": 5.33
+    },
+    {
+      "name": "Botão",
+      "ratio": 10.12
+    },
+    {
+      "name": "Botão em processamento",
+      "ratio": 6.16
+    },
+    {
+      "name": "Mensagem de erro",
+      "ratio": 7.4
+    },
+    {
+      "name": "Foco / branco",
+      "ratio": 7.83
+    },
+    {
+      "name": "Foco / palco",
+      "ratio": 6.62
+    },
+    {
+      "name": "Texto do sucesso",
+      "ratio": 7.5
+    }
+  ]
+}
